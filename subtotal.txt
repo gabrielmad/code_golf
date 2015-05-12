@@ -1,0 +1,8 @@
+apple 1200
+orange 530
+grape 740
+orange 310
+apple 860
+grape 600
+orange 250
+apple 380

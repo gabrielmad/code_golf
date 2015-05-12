@@ -1,0 +1,2 @@
+#!/usr/bin/perl -p
+$_=join" ",map{$a=$_;$_=$#x-$i++;(hundred,one,two,three,four,thousand,six,seven,million,nine,thirteen,eighty,fifty,twenty)[($_?/1|4|7/?$a>1?$a%4-3:0:$a:$a==3?10:$a)||(),/2|5|8/&&$a?0:/3|6/?$_+2:()]}@x=/./g
